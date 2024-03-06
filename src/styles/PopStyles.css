@@ -1,0 +1,25 @@
+.pop{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.pop1{
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.pop2{
+    background-image: linear-gradient(273.81deg,rgba(222,80,71,0) 15.12%,#e847a9 97.24%);
+    height: 10px;
+    width: 124px;
+    margin-top: 28px;
+}
+
+.star{
+    
+    margin-top: 12px;
+}
+.star img{
+    height: 40px;
+    width: 40px;
+}

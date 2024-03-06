@@ -1,0 +1,39 @@
+{
+    "navbar": [
+    {
+      "id": 1,
+      "navlogo":"https://thecreatorsunited.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FbrandLogo.ee95d88a.png&w=1920&q=75",
+      "navheadertext1": "HOME",
+      "navheadertext2": "NEWS",
+      "navheadertext3": "ENTERTAINMENT",
+      "navheadertext4": "INFLUENCER",
+      "navheadertext5": "WHAT'S HOT",
+      "navheadertext6": "FEST"
+      
+    }
+  ],
+
+
+
+    "banner":[
+        {
+            "id": 1,
+            "bannerImage": "images/image.webp" 
+        }
+    ],
+
+    "things":[
+        {
+            "id":1,
+            "thingstext":"THINGS NOT TO MISS OUT"
+        }
+    ],
+
+    "card":[
+        {
+            "id":1,
+            "card1":"https://thecreatorsunited.com/_next/image?url=https%3A%2F%2Fupload-assets.sgp1.cdn.digitaloceanspaces.com%2Fpublic%2F2023-11-08T10-48-16.201Z-DSC07709-%25281%2529.jpg&w=1920&q=75"
+        }
+    ]
+}
+

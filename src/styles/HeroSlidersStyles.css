@@ -1,0 +1,80 @@
+.Custom-bg {
+    background-color: #3c3a4a;
+    margin: 10px;
+    padding: 10px; /* Add padding to provide space for the text */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the items */
+    width: 300px;
+    height:80px;
+  }
+  
+  .Custom-bg img {
+    width: 100%; /* Ensure the image does not exceed the container width */
+    height: 100%; /* Ensure the image does not exceed the container height */
+    margin-right: 10px; /* Add some space between the image and text */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .flex-grow {
+    flex-grow: 1; /* Allow the text to take up remaining space */
+  }
+  
+  /* Adjust text styling as needed */
+  .Custom-bg p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size as needed */
+    color: white; /* Text color */
+    line-height: 1.5; /* Adjust line height as needed */
+  }
+  
+
+  
+/* styles/HeroSliderStyles.css */
+
+/* Customize the appearance of the dots */
+.slick-dots {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%; /* Center the dots horizontally */
+  transform: translateX(-50%); /* Center the dots horizontally */
+  width: auto; /* Allow the width to adjust based on the number of dots */
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: -30px;
+}
+
+/* Style individual dots */
+.slick-dots li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+/* Style dot indicator */
+.slick-dots li button {
+  font-size: 0;
+  color: transparent;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Apply gradient to dot */
+.slick-dots li button::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  transition: background 0.3s ease;
+}
+
+/* Adjust active dot */
+.slick-dots li.slick-active button::before {
+  background: linear-gradient(to right, #ff5f5f, #7b8ffe);
+  width: 27px;
+  height: 15px;
+  border-radius: 50% / 100%;
+}
